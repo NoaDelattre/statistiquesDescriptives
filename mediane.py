@@ -11,3 +11,4 @@ if float(mediane) > int(mediane):
     mediane = int(mediane) + 1 
 
 print(int(mediane))
+print(aout[mediane])
