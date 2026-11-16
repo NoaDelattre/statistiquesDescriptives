@@ -1,14 +1,16 @@
 from math import*
 
-t = [1, 5, 2, 9, 4, -3]
-minimal = t[0]
-maximal = t[0]
+aout = [22, 22.6, 21.1, 21.9, 18.3, 18.7, 21.7, 21.1, 23.6, 27.4, 25.1, 24.9, 23.7, 28.9,
+23.2, 26.1, 26.1, 29.8, 28.2, 28.7, 25.9, 26.7, 30.3, 25.2, 21.8, 22, 20.9, 20.7, 20.6, 19.5, 18.8]
 
-for i in range(len(t)):
-    if minimal > t[i]:
-        minimal = t[i]
-    elif maximal < t[i]:
-        maximal = t[i]
+minimal = aout[0]
+maximal = aout[0]
+
+for i in range(len(aout)):
+    if minimal > aout[i]:
+        minimal = aout[i]
+    elif maximal < aout[i]:
+        maximal = aout[i]
     i = i+1
 print(minimal)
 print(maximal)
